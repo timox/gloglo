@@ -1,11 +1,11 @@
 {
   "v": "1",
-  "id": "85f976d9-4d2d-45f9-922d-25d2d9c11f87",
-  "rev": 30,
-  "name": "FortiGate syslog", 
+  "id": "85f976d9-4d2d-45f9-922d-25d2d9c11f67",
+  "rev": 31,
+  "name": "FortiGate sysgloglolog", 
   "summary": "Dashboards for FortiGate syslog data",
   "description": ""
-  "vendor": "Sean Whalen",
+  "vendor": "glogklo",
   "url": "https://github.com/timox/gloglo",
   "parameters": [],
   "entities": [
@@ -15,7 +15,7 @@
         "name": "dashboard",
         "version": "2"
       },
-      "id": "93c396a9-c996-40e1-83d6-14a00b3feb2f",
+      "id": "93c396a9-c996-40e1-83d6-14a00b3feb3f",
       "data": {
         "summary": {
           "@type": "string",
@@ -24,7 +24,7 @@
         "search": {
           "queries": [
             {
-              "id": "7f432e7d-7180-4335-8fa6-b3720401fdf9",
+              "id": "7f432e7d-7180-4335-8fa6-b3720402fdf9",
               "timerange": {
                 "from": 300,
                 "type": "relative"
@@ -47,7 +47,7 @@
                   },
                   "column_limit": null,
                   "streams": [
-                    "89689f4d-3d71-47e3-807e-533f127ba857"
+                    "89689f4d-3d71-47e3-807e-533f127ba217"
                   ],
                   "row_limit": null,
                   "series": [
@@ -61,7 +61,7 @@
                   "rollup": true,
                   "row_groups": [],
                   "type": "pivot",
-                  "id": "879366b0-2624-44af-b62f-4f86ab7b9b86",
+                  "id": "879366b0-2624-44af-b62f-4f86ab7b9b76",
                   "filters": [],
                   "column_groups": [],
                   "sort": []
@@ -78,7 +78,7 @@
                   },
                   "column_limit": null,
                   "streams": [
-                    "89689f4d-3d71-47e3-807e-533f127ba857"
+                    "89689f4d-3d71-47e3-807e-533f127b1857"
                   ],
                   "row_limit": null,
                   "series": [
@@ -101,7 +101,7 @@
                     }
                   ],
                   "type": "pivot",
-                  "id": "53c1a55e-6be7-4655-b2c9-732f50828894",
+                  "id": "53c1a55e-6be7-4655-b2c9-732f508284894",
                   "filters": [],
                   "column_groups": [],
                   "sort": []
@@ -5414,12 +5414,7 @@
           "@value": false
         }
       },
-      "constraints": [
-        {
-          "type": "server-version",
-          "version": ">=6.0.1+7218cba"
-        }
-      ]
+      
     }
   ]
 }
